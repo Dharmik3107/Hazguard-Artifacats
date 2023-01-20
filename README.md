@@ -19,6 +19,10 @@ HazGuard is a web app, a one-stop solution to track all the hazards and their so
 # Demo
 
 [Live Demo](https://www.hazguard.tech/)
+[UX Wireframe](https://www.figma.com/file/EzQZ1Tya0jlxJ0jKS55uEH/HazGuard)
+[Frontend Repo](https://github.com/pesto-students/hazguard-frontend-team1_sumit-srivastava)
+[Backend-Repo](https://github.com/pesto-students/hazguard-backend-team1_sumit-srivastava)
+
 
 Please Note:
 
