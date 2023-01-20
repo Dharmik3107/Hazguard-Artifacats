@@ -1,6 +1,6 @@
 # HazGuard
 
-![HazGuard Logo](./public/Logo.png)
+![HazGuard Logo]([./public/Logo.png](https://github.com/pesto-students/hazguard-frontend-team1_sumit-srivastava/blob/master/public/Logo.png))
 
 We at HazGuard bring together companies across various industries on one page to help them share hazards and solutions that happen in their workplaces.
 <br/>
