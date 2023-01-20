@@ -1,6 +1,6 @@
 # HazGuard
 
-![HazGuard Logo](https://www.hazguard.tech/Logo.png)
+![HazGuard Logo](./public/Logo.png)
 
 We at HazGuard bring together companies across various industries on one page to help them share hazards and solutions that happen in their workplaces.
 <br/>
@@ -27,7 +27,7 @@ Please Note:
 
 Test Credentials:
 
--   For User With No Subscription
+-   For User With Free Subscription
     -   Email: testuser1@pestoproject.com
     -   Password: 1234567890
 
@@ -42,43 +42,39 @@ Test Credentials:
 # Installation
 
 1. Clone the repo
+
     ```sh
-    git clone https://github.com/pesto-students/hazguard-backend-team1_sumit-srivastava.git
+    git clone https://github.com/pesto-students/hazguard-frontend-team1_sumit-srivastava.git
     ```
+
 2. Set environment variables
 
     ```sh
-    MONOGODBURL=
-    PORT=
-    ACCESS_TOKEN_SECRET=
-    REFRESH_TOKEN_SECRET=
-    CONFIRMATION_TOKEN_SECRET=
-    NODE__MAILER_EMAIL=
-    NODE__MAILER_PASSWORD=
-    RAZORPAY_KEY_ID=
-    RAZORPAY_SECRET=
+    VITE_S3_BUCKET_NAME=
+    VITE_S3_REGION_NAME=
+    VITE_S3_ACCESS_KEY_ID=
+    VITE_S3_SECRET_ACCESS_KEY=
     ```
-
 3. Install NPM packages
     ```sh
-    cd hazguard-backend-team1_sumit-srivastava && npm install
+    cd hazguard-frontend-team1_sumit-srivastava && npm install
     ```
 4. Run
     ```sh
-    npm start
+    npm run dev
     ```
+5. Open http://localhost:3000 to view it in the browser
 
 # Technology Stack
 
 We used a tried and tested tech stack. This resulted in a fast, performant, and easily-extensible web app that should be fairly future-proof for the coming next several years. We used:
 
--   [MongoDB](https://www.mongodb.com/)
--   [Express.js](https://expressjs.com/)
--   [Node.js](https://nodejs.org/)
+-   [React.js](https://reactjs.org/)
+-   [Redux Toolkit](https://redux-toolkit.js.org/)
+-   [Tailwind CSS](https://tailwindcss.com/)
 -   [JWT Authentication](https://jwt.io/)
 -   [Razorpay](https://razorpay.com/)
 -   [Prettier](https://prettier.io/)
--   [Nodemailer](https://nodemailer.com/)
 
 # Authors
 
